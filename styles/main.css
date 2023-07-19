@@ -111,6 +111,9 @@ button{
     margin-left: 20px;
     margin-top: 5vh;
 }
+button:hover {
+    background-color: orangered;
+}
 
 .theater {
     width: 175px;
