@@ -1,0 +1,132 @@
+import 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    
+}
+nav > h1 {
+    color:white;
+}
+nav > ol{
+    display: flex;
+    color:white;
+    list-style: none;
+}
+nav > ol > li {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav > ol > li > a {
+    text-decoration: none;
+    color: white;
+}
+nav > ol > li > a:hover {
+    background-color: white;
+    color: black;
+}
+
+.hero-img{
+    background-image: url(../images/theater-image-background.png);
+    width:100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+
+.hero-text{
+    display:flex;
+    color: white;
+    justify-content: center;
+    padding-top: 200px;
+    font-size:11vw
+}
+
+.show-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.date{
+    font-size: 20px;
+    border: 1px solid black;
+    display: flex;
+    width: 50vw;
+    padding-left: 35px;
+    margin-top: 75px;
+}
+
+.side{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    width: 52vw;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 40px;
+    list-style-type: none;
+}
+
+ul > li {
+    padding-bottom: 5px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 35px;
+    padding: 10px;
+    color: white;
+    border:1px solid black;
+    margin-left: 20px;
+    margin-top: 5vh;
+}
+
+.theater {
+    width: 175px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+footer img{
+    padding-bottom: 40px;
+}
+footer > ul {
+    padding-bottom: 0px;
+    justify-content: space-between;
+}
