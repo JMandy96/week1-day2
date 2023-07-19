@@ -6,7 +6,7 @@ import
 
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     background-color: black;
     
@@ -95,6 +95,10 @@ ul > li {
     padding-bottom: 5px;
 }
 
+ul > li > a {
+    text-decoration: none;
+    color: black;
+}
 button{
     display: flex;
     justify-content: center;
@@ -130,4 +134,14 @@ footer img{
 footer > ul {
     padding-bottom: 0px;
     justify-content: space-between;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > ul > li > a:hover {
+    text-decoration: none;
+    color: orange;
 }
